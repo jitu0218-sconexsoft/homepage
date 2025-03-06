@@ -1,11 +1,12 @@
 import portfolioImage1 from "@/assets/img/poartfolio/portfolio-1.png";
-import portfolioImage2 from "@/assets/img/poartfolio/portfolio-2.webp";
+import portfolioImage2 from "@/assets/img/poartfolio/portfolio-2.png";
 import portfolioImage3 from "@/assets/img/poartfolio/portfolio-3.png";
 import portfolioImage4 from "@/assets/img/poartfolio/portfolio-4.png";
 import portfolioImage5 from "@/assets/img/poartfolio/portfolio-5.png";
-import portfolioImage6 from "@/assets/img/poartfolio/portfolio-6.jpeg";
+import portfolioImage6 from "@/assets/img/poartfolio/portfolio-6.png";
 import portfolioImage7 from "@/assets/img/poartfolio/portfolio-7.png";
 import portfolioImage8 from "@/assets/img/poartfolio/portfolio-8.png";
+import portfolioImage9 from "@/assets/img/poartfolio/portfolio-9.png";
 
 const getAllPortfolios = () => {
   const portfolios = [
@@ -53,7 +54,7 @@ const getAllPortfolios = () => {
     },
     {
       id: 7,
-      title: "FANCY & AERIAL SHOTS",
+      title: "ROPES",
       img: portfolioImage7,
 
       duration: "2700",
@@ -64,6 +65,13 @@ const getAllPortfolios = () => {
       img: portfolioImage8,
 
       duration: "2900",
+    },
+    {
+      id: 9,
+      title: "ROLLS CAPS",
+      img: portfolioImage9,
+
+      duration: "3100",
     },
   ];
   return portfolios;
